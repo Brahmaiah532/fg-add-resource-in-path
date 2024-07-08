@@ -1,0 +1,16 @@
+{
+  "title": "FG Add Resource In Path",
+  "type": "object",
+  "$id": "fg-add-resource-in-path",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "description": "This policy will append the given resource to the context path",
+  "properties": {
+    "baseResource": {
+      "type": "string",
+      "description": "masked resource path to add to backend"
+    }
+  },
+  "required": [
+    "baseResource"
+  ]
+}

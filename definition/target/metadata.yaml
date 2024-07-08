@@ -1,0 +1,5 @@
+#%Policy Definition 0.1
+name: FG Add Resource In Path
+category: Custom
+providedCharacteristics: []
+description: This policy will append the given resource to the context path

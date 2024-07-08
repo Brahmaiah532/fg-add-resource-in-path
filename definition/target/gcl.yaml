@@ -1,0 +1,20 @@
+---
+apiVersion: gateway.mulesoft.com/v1alpha1
+kind: Extension
+metadata:
+  labels:
+    title: FG Add Resource In Path
+    category: Custom
+    description: This policy will append the given resource to the context path
+    pdk.mulesoft.com/pdk-cli-version: 1.0.1
+  name: fg-add-resource-in-path-v1-0
+spec:
+  extends:
+    - name: extension-definition
+      namespace: default
+  properties:
+    baseResource:
+      type: string
+      description: masked resource path to add to backend
+  required:
+    - baseResource

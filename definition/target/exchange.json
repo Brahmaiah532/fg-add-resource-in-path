@@ -1,0 +1,8 @@
+{
+  "main": "metadata.yaml",
+  "groupId": "ea21d5c9-afe6-472c-a994-a0471c749549",
+  "assetId": "fg-add-resource-in-path",
+  "version": "1.0.0",
+  "name": "FG Add Resource In Path",
+  "description": "This policy will append the given resource to the context path"
+}
